@@ -225,7 +225,7 @@ b_home(){
     if tmux has-session -t "$session_name" 2>/dev/null; then
         tmux attach-session -t "$session_name"
     else
-        tmux new-session -s "$session_name" "cd ~/dotfiles && nvim ." \; 
+        tmux new-session -s "$session_name" "cd ~/my-dotfiles && nvim ." \; 
     fi
 }
 
@@ -252,5 +252,5 @@ tmux_alacritty(){
 set -o vi 
 bind -m vi-command 'Control-l: clear-screen'
 bind -m vi-insert 'Control-l: clear-screen'
-export SIMPLE_VAR=htttttttp
+
 # create alias to restart odoo 16 instance inside the tmux session>window>pane

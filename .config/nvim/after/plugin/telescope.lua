@@ -5,7 +5,7 @@ vim.keymap.set('n', '<leader>ff', function() builtin.find_files{hidden=true,
         "--files",
         "--hidden",
         "--glob=!**/.git/*",
-        "--glob=!**/.config/nvim/*",
+        -- "--glob=!**/.config/nvim/*",
         "--with-filename", -- Print the file path with the matched lines
         "--line-number",   -- Show line numbers
         "--column",       -- "--glob=!**/.idea/*",

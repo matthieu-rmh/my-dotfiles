@@ -11,7 +11,7 @@ config.color_scheme = 'Blazer'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.8
-config.win32_system_backdrop = "Acrylic" 
+-- config.win32_system_backdrop = "Acrylic" 
 config.tab_bar_at_bottom = true
 config.tab_max_width = 13
 config.use_fancy_tab_bar = true
@@ -19,7 +19,22 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('FiraCode Nerd Font Mono Med')
+config.font = wezterm.font('RobotoMono Nerd Font Mono')
+config.font_rules = {
+
+-- normal-intensity-and-italic
+  {
+    intensity = 'Normal',
+    italic = true,
+    font = wezterm.font {
+      family = 'RobotoMono Nerd Font Mono',
+      italic = true
+    },
+  }
+}
+
+config.font_size = 11.5
+-- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
 -- config.window_background_gradient = {
 --   orientation = 'Vertical',
