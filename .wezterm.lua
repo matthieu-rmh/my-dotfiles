@@ -19,7 +19,7 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('RobotoMono Nerd Font Mono')
+config.font = wezterm.font('Fragment Mono Regular')
 config.font_rules = {
 
 -- normal-intensity-and-italic
