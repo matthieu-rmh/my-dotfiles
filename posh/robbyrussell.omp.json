@@ -7,7 +7,7 @@
         {
           "foreground": "#98C379",
           "style": "plain",
-          "template": "\u276f",
+          "template": "\u003e",
           "type": "text"
         },
         {
