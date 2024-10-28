@@ -33,6 +33,13 @@ config.font_rules = {
   }
 }
 
+local act = wezterm.action
+
+config.keys = {
+  { key = 'k', mods = 'SHIFT', action = act.ScrollByPage(-1) },
+  { key = 'j', mods = 'SHIFT', action = act.ScrollByPage(1) },
+}
+
 config.font_size = 11.5
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
