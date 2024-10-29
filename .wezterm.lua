@@ -39,7 +39,7 @@ config.keys = {
   { key = 'k', mods = 'SHIFT', action = act.ScrollByPage(-1) },
   { key = 'j', mods = 'SHIFT', action = act.ScrollByPage(1) },
 }
-
+config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 config.font_size = 11.5
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
