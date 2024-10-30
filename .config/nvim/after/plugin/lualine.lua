@@ -1,6 +1,6 @@
 require('lualine').setup {
   options = {
-    theme = "auto",
+    theme = "cyberdream",
     component_separators = '',
     -- section_separators = { left = '', right = '' },
     -- section_separators = { left = '', right = '' },

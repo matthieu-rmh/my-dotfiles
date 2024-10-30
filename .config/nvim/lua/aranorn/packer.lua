@@ -79,4 +79,5 @@ return require('packer').startup(function(use)
     use { "nvim-treesitter/nvim-treesitter-context" }
     use { "LiadOz/nvim-dap-repl-highlights" }
     use {"AlexvZyl/nordic.nvim"}
+    use {"mellow-theme/mellow.nvim"}
 end)

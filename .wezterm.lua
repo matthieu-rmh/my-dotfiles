@@ -7,7 +7,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Blazer'
+config.color_scheme = 'Banana Blueberry'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.8
@@ -19,28 +19,26 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('Fragment Mono Regular')
-config.font_rules = {
+config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
--- normal-intensity-and-italic
-  {
-    intensity = 'Normal',
-    italic = true,
-    font = wezterm.font {
-      family = 'RobotoMono Nerd Font Mono',
-      italic = true
-    },
-  }
-}
+-- config.font_rules = {
+--
+-- -- normal-intensity-and-italic
+--   {
+--     intensity = 'Normal',
+--
+--     italic = true,
+--     font = wezterm.font {
+--       family = 'RobotoMono Nerd Font Mono',
+--       italic = true
+--     },
+--   }
+-- }
 
-local act = wezterm.action
 
-config.keys = {
-  { key = 'k', mods = 'SHIFT', action = act.ScrollByPage(-1) },
-  { key = 'j', mods = 'SHIFT', action = act.ScrollByPage(1) },
-}
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
-config.font_size = 11.5
+config.font_size = 11
+
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
 -- config.window_background_gradient = {
