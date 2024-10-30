@@ -7,7 +7,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Banana Blueberry'
+config.color_scheme = 'Kanagawa (Gogh)'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.8
