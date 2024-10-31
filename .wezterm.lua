@@ -7,10 +7,10 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Kanagawa (Gogh)'
+config.color_scheme = 'Bitmute (terminal.sexy)'
 
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.8
+config.window_background_opacity = 0.9
 -- config.win32_system_backdrop = "Acrylic" 
 config.tab_bar_at_bottom = true
 config.tab_max_width = 13
