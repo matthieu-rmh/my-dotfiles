@@ -10,7 +10,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 config.color_scheme = 'Bitmute (terminal.sexy)'
 
 config.window_decorations = "RESIZE"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1
 -- config.win32_system_backdrop = "Acrylic" 
 config.tab_bar_at_bottom = true
 config.tab_max_width = 13
@@ -19,7 +19,8 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('FiraCode Nerd Font Mono Med')
+config.font = wezterm.font('JetBrainsMono NFM SemiBold')
+-- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
 -- config.font_rules = {
 --
@@ -37,7 +38,7 @@ config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
-config.font_size = 11
+config.font_size = 10.9
 
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
