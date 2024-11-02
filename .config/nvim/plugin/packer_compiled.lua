@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/mellow.nvim",
     url = "https://github.com/mellow-theme/mellow.nvim"
   },
+  ["nightfox.nvim"] = {
+    loaded = true,
+    path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
+    url = "https://github.com/EdenEast/nightfox.nvim"
+  },
   ["nordic.nvim"] = {
     loaded = true,
     path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/nordic.nvim",

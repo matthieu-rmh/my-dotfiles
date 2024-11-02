@@ -1,6 +1,7 @@
 -- This file can be loaded by calling `lua require('plugis')` from your init.vim
 --
 
+
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
@@ -80,4 +81,5 @@ return require('packer').startup(function(use)
     use { "LiadOz/nvim-dap-repl-highlights" }
     use {"AlexvZyl/nordic.nvim"}
     use {"mellow-theme/mellow.nvim"}
+    use {"EdenEast/nightfox.nvim"}
 end)

@@ -12,7 +12,7 @@ require('nordic').setup({
     -- Enable editor background transparency.
     transparent = {
         -- Enable transparent background.
-        bg = true,
+        bg = false,
         -- Enable transparent background for floating windows.
         float = false,
     },

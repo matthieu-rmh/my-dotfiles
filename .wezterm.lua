@@ -7,7 +7,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Gruvbox dark, hard (base16)'
+config.color_scheme = 'nightfox'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 1
@@ -19,8 +19,7 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('JetBrainsMono NFM SemiBold')
--- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
+config.font = wezterm.font('GeistMono NFM SemiBold')
 
 -- config.font_rules = {
 --
@@ -38,7 +37,7 @@ config.font = wezterm.font('JetBrainsMono NFM SemiBold')
 
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
-config.font_size = 10.9
+config.font_size = 11
 
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
