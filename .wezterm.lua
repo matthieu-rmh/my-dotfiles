@@ -19,7 +19,8 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('GeistMono NFM SemiBold')
+config.font = wezterm.font('MesloLGMDZ Nerd Font Mono')
+-- config.font = wezterm.font('GeistMono NFM SemiBold')
 
 -- config.font_rules = {
 --

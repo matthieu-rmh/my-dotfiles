@@ -18,13 +18,13 @@ require('nightfox').setup({
       },
     },
     styles = {               -- Style to be applied to different syntax groups
-      comments = "NONE",     -- Value is any valid attr-list value `:help attr-list`
-      conditionals = "NONE",
+      comments = "italic",     -- Value is any valid attr-list value `:help attr-list`
+      conditionals = "italic",
       constants = "NONE",
-      functions = "NONE",
+      functions = "bold",
       keywords = "NONE",
       numbers = "NONE",
-      operators = "NONE",
+      operators = "italic",
       strings = "NONE",
       types = "NONE",
       variables = "NONE",
