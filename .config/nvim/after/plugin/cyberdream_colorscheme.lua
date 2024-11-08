@@ -57,4 +57,3 @@ require("cyberdream").setup({
         ...
     },
 })
-
