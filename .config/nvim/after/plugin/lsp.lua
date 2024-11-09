@@ -28,7 +28,8 @@ require('mason-lspconfig').setup({
       'emmet_ls',
       'cssls',
       'lemminx',
-      'bashls'
+      'bashls',
+      'vue-language-server'
   },
   handlers = {
     function(server_name)
