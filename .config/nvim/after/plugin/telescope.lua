@@ -14,6 +14,7 @@ telescope.setup({
                 "--glob=!**/__pycache__/*",
                 "--glob=!**/py_env/*",
                 "--glob=!**/.asdf/*",
+                "--glob=!**/node_modules/*",
                 -- "--glob=!**/.config/nvim/*",
                 "--with-filename", -- Print the file path with the matched lines
                 "--line-number",   -- Show line numbers
@@ -28,7 +29,7 @@ telescope.setup({
         },
         live_grep = {
             additional_args = function(opts)
-               return {"--hidden", "--glob=!**/.git/*"}
+               return {"--hidden", "--glob=!**/.git/*", "--glob=!**/node_modules/*"}
             end
         }
     }
