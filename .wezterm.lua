@@ -38,7 +38,11 @@ config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
-config.font_size = 11
+config.font_size = 10
+
+-- config.colors = {
+--     background = '#0f0f0f'
+-- }
 
 -- config.font = wezterm.font('FiraCode Nerd Font Mono Med')
 
