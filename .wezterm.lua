@@ -7,7 +7,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'nightfox'
+config.color_scheme = 'Rosé Pine (Gogh)'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 1
@@ -19,7 +19,7 @@ config.use_fancy_tab_bar = true
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config)
-config.font = wezterm.font('MesloLGMDZ Nerd Font Mono')
+config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 -- config.font = wezterm.font('GeistMono NFM SemiBold')
 
 -- config.font_rules = {
