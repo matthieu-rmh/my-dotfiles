@@ -14,11 +14,38 @@ config.window_background_opacity = 1
 -- config.win32_system_backdrop = "Acrylic" 
 config.tab_bar_at_bottom = true
 config.tab_max_width = 13
-config.use_fancy_tab_bar = true
+-- config.use_fancy_tab_bar = true
 
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
 -- and finally, return the configuration to wezterm
-bar.apply_to_config(config)
+bar.apply_to_config(config,
+    {
+        max_width = 20,
+        modules = {
+            tabs = {
+                enabled = false
+            },
+            workspace = {
+                enabled = false
+            },
+            hostname = {
+                enabled = false
+            },
+            username = {
+                enabled = false
+            },
+            cwd = {
+                enabled = false
+            },
+            pane = {
+                enabled = false
+            }
+
+        }
+    }
+)
+config.show_new_tab_button_in_tab_bar = false
+config.show_tabs_in_tab_bar = false
 config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 -- config.font = wezterm.font('GeistMono NFM SemiBold')
 
@@ -39,6 +66,9 @@ config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 config.font_size = 10
+config.window_frame = {
+    font_size = 8.0
+}
 
 -- config.colors = {
 --     background = '#0f0f0f'
