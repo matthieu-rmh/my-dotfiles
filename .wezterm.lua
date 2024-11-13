@@ -7,7 +7,7 @@ local bar = wezterm.plugin.require("https://github.com/adriankarlen/bar.wezterm"
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'Rosé Pine (Gogh)'
+-- config.color_scheme = 'Rosé Pine (Gogh)'
 
 config.window_decorations = "RESIZE"
 config.window_background_opacity = 1
@@ -17,6 +17,16 @@ config.tab_max_width = 13
 -- config.use_fancy_tab_bar = true
 
 config.default_prog = { 'C:\\Windows\\System32\\wsl.exe', '~' }
+
+local rpine = wezterm.color.get_builtin_schemes()['Rosé Pine (Gogh)']
+-- config.color_schemes = {
+--    ['R Pine'] = rpine
+-- }
+config.color_scheme = 'Rosé Pine (Gogh)'
+-- config.colors = {
+--     background = '#0f0f0f'
+-- }
+
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config,
     {
@@ -66,9 +76,6 @@ config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
 config.font_size = 10
-config.window_frame = {
-    font_size = 8.0
-}
 
 -- config.colors = {
 --     background = '#0f0f0f'

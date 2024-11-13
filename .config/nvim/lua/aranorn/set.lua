@@ -20,7 +20,7 @@ vim.opt.undofile = true
 -- by default fillchars symbol is '~'
 vim.opt.fillchars = {eob = " "}
 
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
