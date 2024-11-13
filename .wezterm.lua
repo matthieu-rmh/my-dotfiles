@@ -22,10 +22,11 @@ local rpine = wezterm.color.get_builtin_schemes()['Rosé Pine (Gogh)']
 -- config.color_schemes = {
 --    ['R Pine'] = rpine
 -- }
-config.color_scheme = 'Rosé Pine (Gogh)'
--- config.colors = {
---     background = '#0f0f0f'
--- }
+-- config.color_scheme = 'Rosé Pine (Gogh)'
+-- config.color_scheme = 'niji'
+config.colors = {
+    background = '#0f0f0f'
+}
 
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config,
