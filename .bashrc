@@ -254,6 +254,7 @@ bind -m vi-command 'Control-l: clear-screen'
 bind -m vi-insert 'Control-l: clear-screen'
 
 alias rg="rg --hidden --glob '!.git'"
+alias c="xclip -selection clipboard"
 
 . "$HOME/.asdf/asdf.sh"
 # create alias to restart odoo 16 instance inside the tmux session>window>pane
