@@ -24,9 +24,9 @@ local rpine = wezterm.color.get_builtin_schemes()['Rosé Pine (Gogh)']
 -- }
 -- config.color_scheme = 'Rosé Pine (Gogh)'
 -- config.color_scheme = 'niji'
-config.colors = {
-    background = '#0f0f0f'
-}
+-- config.colors = {
+--     background = '#0f0f0f'
+-- }
 
 -- and finally, return the configuration to wezterm
 bar.apply_to_config(config,
@@ -76,7 +76,7 @@ config.font = wezterm.font('JetBrainsMono Nerd Font Mono')
 
 
 config.harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' }
-config.font_size = 10
+config.font_size = 10.6
 
 -- config.colors = {
 --     background = '#0f0f0f'
