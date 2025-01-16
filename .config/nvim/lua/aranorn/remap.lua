@@ -24,3 +24,6 @@ vim.api.nvim_set_keymap('n', '<leader>otr', ':!bash -ic "o17r"<CR>', { noremap =
 vim.keymap.set("n", "[c", function()
   require("treesitter-context").go_to_context(vim.v.count1)
 end, { silent = true })
+vim.keymap.set("n", "<leader>td", function()
+    require("todo-comments").jump_next()
+end)

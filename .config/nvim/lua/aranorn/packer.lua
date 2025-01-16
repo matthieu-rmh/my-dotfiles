@@ -82,4 +82,5 @@ return require('packer').startup(function(use)
     use {"AlexvZyl/nordic.nvim"}
     use {"mellow-theme/mellow.nvim"}
     use {"EdenEast/nightfox.nvim"}
+    use {"folke/todo-comments.nvim", as = "todo_comments"}
 end)

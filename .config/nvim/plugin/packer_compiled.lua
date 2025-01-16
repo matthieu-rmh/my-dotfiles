@@ -230,6 +230,11 @@ _G.packer_plugins = {
     path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  todo_comments = {
+    loaded = true,
+    path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/todo_comments",
+    url = "https://github.com/folke/todo-comments.nvim"
+  },
   ["toggleterm.nvim"] = {
     loaded = true,
     path = "/home/aranorn/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",

@@ -1,6 +1,6 @@
 #!/bin/bash
 . /home/aranorn/my-paths.conf
-current_worked_module=capvi_catalog
+current_worked_module=bt_edi
 
 if [ -n "$current_worked_module" ]
 then
